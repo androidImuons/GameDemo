@@ -18,10 +18,10 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:visibility="invisible"
+
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="80dp"
-            android:src="@drawable/logo"
+            android:src="@drawable/logo_animation"
             />
 
 
@@ -32,12 +32,13 @@
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/amazon_bold"
             android:padding="10dp"
-            android:shadowColor="#a3ffaf"
+            android:shadowColor="@color/yellows"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
+            android:textAllCaps="true"
             android:shadowRadius="20"
             android:text="@string/select_lang"
-            android:textColor="#a3ffaf"
+            android:textColor="@color/yellows"
             android:textSize="30sp"
             android:textStyle="bold"
             />
@@ -48,7 +49,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/edit_bg"
+            android:background="@drawable/plug_bg"
             android:gravity="center_vertical"
             android:paddingLeft="20dp"
             >
@@ -62,8 +63,8 @@
                 android:fontFamily="@font/amazon_regular"
                 android:paddingLeft="10dp"
                 android:text="@string/english"
-                android:textColor="#9c27b0"
-                android:textSize="18dp"
+                android:textColor="@color/lightgreen"
+                android:textSize="18sp"
                 android:textStyle="bold">
 
             </TextView>
@@ -73,9 +74,8 @@
             android:layout_width="match_parent"
             android:layout_height="100sp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="-20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/edit_bg"
+            android:background="@drawable/plug_bg"
             android:gravity="center_vertical"
             android:paddingLeft="20dp"
             >
@@ -89,8 +89,8 @@
                 android:fontFamily="@font/amazon_regular"
                 android:paddingLeft="10dp"
                 android:text="@string/hindi"
-                android:textColor="#9c27b0"
-                android:textSize="18dp"
+                android:textColor="@color/lightgreen"
+                android:textSize="18sp"
                 android:textStyle="bold">
             </TextView>
         </LinearLayout>

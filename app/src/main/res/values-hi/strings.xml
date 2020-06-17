@@ -40,6 +40,7 @@
     <string name="password">पास वर्ड </string>
     <string name="user_id">यूज़र आईडी</string>
     <string name="forget_password">पासवर्ड भूल गए?</string>
+    <string name="forget">पासवर्ड भूल गए?</string>
     <string name="submit">प्रस्तुत</string>
     <string name="enter_user_d">यूज़र आईडी दर्ज करें</string>
     <string name="enter_passsword">पास वर्ड दर्ज करें</string>
@@ -62,7 +63,7 @@
     <string name="select_lang">भाषा का चयन करें</string>
     <string name="english">अंग्रेज़ी (English)</string>
     <string name="hindi">हिन्दी</string>
-    <string name="setting">स्थापना</string>
+    <string name="setting">भाषा बदलो</string>
     <string name="profile">प्रोफ़ाइल</string>
     <string name="change_pin">पिन बदलें</string>
     <string name="change_password">पासवर्ड बदलें</string>
