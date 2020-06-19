@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SaddaAdda</string>
+    <string name="app_name">Game Demo</string>
     <string name="ruleone">Alex invests 100/- on single number (for e.g. 2) and then it is the winning number, he will win 900/-</string>
     <string name="ruletwo">Alex invests 100/- on two numbers (for e.g. 2 &amp; 3) and then either of them is the winning number, he will win 450/-</string>
     <string name="rulethree">Alex invests 100/- on three numbers (for e.g. 1,2 &amp; 3) and then either of them is the winning number, he will win 300/-</string>
