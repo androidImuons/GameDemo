@@ -194,8 +194,8 @@ public class TicketDetailDataModel {
         this.toPhonepeNo = toPhonepeNo;
     }
 
-    public Object getToPaytmNo() {
-        return toPaytmNo;
+    public String getToPaytmNo() {
+        return (String) toPaytmNo;
     }
 
     public void setToPaytmNo(Object toPaytmNo) {

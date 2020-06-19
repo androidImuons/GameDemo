@@ -32,7 +32,8 @@ public class HelpDetailsActivity extends AppCompatActivity {
 
     @BindView(R.id.txt_tran_id)
     TextView txt_tran_id;
-
+    @BindView(R.id.txtpaytm)
+    TextView txtpaytm;
     @BindView(R.id.txt_from_user)
     TextView txt_from_user;
     @BindView(R.id.txt_to_user)
@@ -136,6 +137,7 @@ public class HelpDetailsActivity extends AppCompatActivity {
         txt_contact.setText(validString(dataModel.getToMobile()));
         txt_google_pay.setText(validString(dataModel.getToTezNo()));
         txt_phone_pay.setText(validString(dataModel.getToPhonepeNo()));
+        txtpaytm.setText(validString(dataModel.getToPaytmNo()));
         account_no.setText(validString(dataModel.getToAccountNo()));
         branch_name.setText(validString(dataModel.getToBranchName()));
         bank_name.setText(validString(dataModel.getToBankName()));

@@ -191,5 +191,7 @@
     <string name="nineReport">0-9 Direct Income Report</string>
     <string name="sevenUpDown">7 Up Down Direct Income Report</string>
     <string name="shatakReport">"Shatak Direct Income Report "</string>
+    <string name="sr_no">Sr No</string>
+    <string name="pre_balance">Prev Balance</string>
 
 </resources>

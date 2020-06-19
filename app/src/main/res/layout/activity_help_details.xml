@@ -12,447 +12,532 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="80dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/bg_blue_line_white"
-        android:gravity="center_horizontal"
+        android:background="@drawable/file_upload"
         android:orientation="vertical"
         >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="10dp"
-            >
-
-            <ImageView
-                android:id="@+id/cross"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_gravity="right"
-                android:background="@drawable/cross_1"
-                ></ImageView>
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/txUserId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/amazon_bold"
-            android:shadowColor="#edea73"
-            android:shadowDx="1"
-            android:shadowDy="1"
-            android:shadowRadius="2"
-            android:text="Help Details"
-            android:textColor="#edea73"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            />
-
-        <TextView
-            android:id="@+id/txt_tran_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/amazon_bold"
-            android:textColor="@color/white"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/bg_green_round"
+            android:backgroundTint="@color/dark_bg"
+            android:gravity="center_horizontal"
             android:orientation="vertical"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/bg_pink_bg_cho_border"
             >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:weightSum="1">
+                android:gravity="right"
+                android:padding="5dp"
+                >
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:drawableLeft="@drawable/user_1"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:paddingRight="20dp"
-                        android:text="From user"
-                        android:textColor="#d3d32b"
-                        android:textSize="15dp">
-                    </TextView>
-
-                    <TextView
-                        android:id="@+id/txt_from_user"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:paddingLeft="30dp"
-                        android:paddingRight="20dp"
-                        android:textColor="@color/white"
-                        android:textSize="15dp">
-                    </TextView>
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:drawableLeft="@drawable/user_1"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:paddingRight="20dp"
-                        android:text="To user"
-                        android:textColor="#d3d32b"
-                        android:textSize="15dp">
-                    </TextView>
-
-                    <TextView
-                        android:id="@+id/txt_to_user"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:paddingLeft="30dp"
-                        android:paddingRight="20dp"
-                        android:textColor="@color/white"
-                        android:textSize="15dp">
-                    </TextView>
-
-                </LinearLayout>
-
+                <ImageView
+                    android:id="@+id/cross"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/round_cross"
+                    ></ImageView>
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="10dp"
-                android:background="#db0f4d"
-                android:layout_height="2dp">
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/txUserId"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:weightSum="1">
+                android:fontFamily="@font/amazon_bold"
+                android:shadowColor="#a2fcad"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="Help Details"
+                android:textColor="#a2fcad"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:drawableLeft="@drawable/aount_1"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:text="@string/amount"
-                        android:textColor="#d3d32b"
-                        android:paddingRight="20dp"
-                        android:textSize="15dp">
-                    </TextView>
-
-                    <TextView
-                        android:id="@+id/txt_amount"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:paddingLeft="30dp"
-                        android:paddingRight="20dp"
-                        android:textColor="@color/white"
-                        android:textSize="15dp">
-                    </TextView>
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:drawableLeft="@drawable/contactno_1"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:text="Contact No"
-                        android:paddingRight="20dp"
-                        android:textColor="#d3d32b"
-                        android:textSize="15dp">
-                    </TextView>
-
-                    <TextView
-                        android:id="@+id/txt_contact"
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:fontFamily="@font/amazon_bold"
-                        android:gravity="center"
-                        android:paddingLeft="30dp"
-                        android:paddingRight="20dp"
-                        android:textColor="@color/white"
-                        android:textSize="15dp">
-                    </TextView>
-
-                </LinearLayout>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="10dp"
-                android:background="#db0f4d"
-                android:layout_height="2dp">
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/txt_tran_id"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:weightSum="1">
-                <TextView
-                    android:id="@+id/txt_google_pay"
+                android:fontFamily="@font/amazon_bold"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:gravity="center_vertical"
-                    android:text="Google Pay No"
-                    android:textColor="@color/yellow"
-                    android:drawablePadding="20dp"
-                    android:textSize="17dp"
-                    android:drawableLeft="@drawable/googlepay_1"
-                    android:layout_height="40dp">
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/yellows"
+                    >
 
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="10dp"
-                android:background="#db0f4d"
-                android:layout_height="2dp">
+                </LinearLayout>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:weightSum="1">
-                <TextView
-                    android:id="@+id/txt_phone_pay"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:gravity="center_vertical"
-                    android:text="PhonePe No"
-                    android:textColor="@color/yellow"
-                    android:drawablePadding="20dp"
-                    android:textSize="17dp"
-                    android:drawableLeft="@drawable/phonepe_1"
-                    android:layout_height="40dp">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:weightSum="1"
+                    >
 
-                </TextView>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:drawableLeft="@drawable/user_1"
+                            android:drawableTint="@color/yellows"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingRight="20dp"
+                            android:text="From user"
+                            android:textColor="#638494"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                        <TextView
+                            android:id="@+id/txt_from_user"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:drawableLeft="@drawable/user_1"
+                            android:drawableTint="@color/yellows"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingRight="20dp"
+                            android:text="To user"
+                            android:textColor="#638494"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                        <TextView
+                            android:id="@+id/txt_to_user"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#db0f4d"
+                    >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:weightSum="1"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:drawableLeft="@drawable/aount_1"
+                            android:drawableTint="@color/yellows"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingRight="20dp"
+                            android:text="@string/amount"
+                            android:textColor="#638494"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                        <TextView
+                            android:id="@+id/txt_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="0.5"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:drawableLeft="@drawable/contactno_1"
+                            android:drawableTint="@color/yellows"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingRight="20dp"
+                            android:text="Contact No"
+                            android:textColor="#638494"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                        <TextView
+                            android:id="@+id/txt_contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:fontFamily="@font/amazon_bold"
+                            android:gravity="center"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="20dp"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            ></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#db0f4d"
+                    >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/txt_google_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:drawableLeft="@drawable/googlepay_1"
+                        android:drawablePadding="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/google_pay_no"
+                        android:textColor="#638494"
+                        android:textSize="17dp"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#db0f4d"
+                    >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/txt_phone_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:drawableLeft="@drawable/phonepe_1"
+                        android:drawablePadding="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/phonepe_no"
+                        android:textColor="#638494"
+                        android:textSize="17dp"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/txtpaytm"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:drawableLeft="@drawable/paytm"
+                        android:drawablePadding="10dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/paytm_no"
+                        android:textColor="#638494"
+                        android:textSize="17dp"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#db0f4d"
+                    >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.4"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:text="Holder Name"
+                        android:textColor="#ac6d1c"
+                        android:textSize="15dp"
+                        ></TextView>
+
+                    <TextView
+                        android:id="@+id/txtholder_name"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        ></TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.4"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:text="Account No"
+                        android:textColor="#a2fcad"
+                        android:textSize="15dp"
+                        ></TextView>
+
+                    <TextView
+                        android:id="@+id/account_no"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        ></TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.4"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:text="Branch Name"
+                        android:textColor="#d3d32b"
+                        android:textSize="15dp"
+                        ></TextView>
+
+                    <TextView
+                        android:id="@+id/branch_name"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        ></TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.4"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:text="Bank Name"
+                        android:textColor="#d3d32b"
+                        android:textSize="17dp"
+                        ></TextView>
+
+                    <TextView
+                        android:id="@+id/bank_name"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        ></TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:weightSum="1"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.4"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:text="IFSC Code"
+                        android:textColor="#31c8cc"
+                        android:textSize="17dp"
+                        ></TextView>
+
+                    <TextView
+                        android:id="@+id/ifsc_code"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.6"
+                        android:fontFamily="@font/amazon_bold"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        ></TextView>
+
+
+                </LinearLayout>
+
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="10dp"
-                android:background="#db0f4d"
-                android:layout_height="2dp">
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
-                android:weightSum="1">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.4"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:text="Holder Name"
-                    android:textColor="#d3d32b"
-                    android:textSize="15dp">
-                </TextView>
-
-                <TextView
-                    android:id="@+id/txtholder_name"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.6"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/white"
-                    android:textSize="15dp">
-                </TextView>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="3dp"
-                android:weightSum="1">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.4"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:text="Account No"
-                    android:textColor="#db0f4d"
-                    android:textSize="15dp">
-                </TextView>
-
-                <TextView
-                    android:id="@+id/account_no"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.6"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/white"
-                    android:textSize="15dp">
-                </TextView>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="3dp"
-                android:weightSum="1">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.4"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:text="Branch Name"
-                    android:textColor="#31c8cc"
-                    android:textSize="15dp">
-                </TextView>
-
-                <TextView
-                    android:id="@+id/branch_name"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.6"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/white"
-                    android:textSize="15dp">
-                </TextView>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="3dp"
-                android:weightSum="1">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.4"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:text="Bank Name"
-                    android:textColor="#31c8cc"
-                    android:textSize="17dp">
-                </TextView>
-
-                <TextView
-                    android:id="@+id/bank_name"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.6"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/white"
-                    android:textSize="15dp">
-                </TextView>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="30dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="3dp"
-                android:weightSum="1">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="0.4"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:text="IFSC Code"
-                    android:textColor="#ac6d1c"
-                    android:textSize="17dp">
-                </TextView>
-
-                <TextView
-                    android:id="@+id/ifsc_code"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.6"
-                    android:layout_height="30dp"
-                    android:fontFamily="@font/amazon_bold"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/white"
-                    android:textSize="15dp">
-                </TextView>
-
-
-            </LinearLayout>
-
         </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>

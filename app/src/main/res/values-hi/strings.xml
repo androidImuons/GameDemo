@@ -197,5 +197,7 @@
     <string name="nineReport">0-9 प्रत्यक्ष आय रिपोर्ट</string>
     <string name="sevenUpDown">7 अप डाउन डायरेक्ट इनकम रिपोर्ट</string>
     <string name="shatakReport">शतक डायरेक्ट इनकम रिपोर्ट</string>
+    <string name="sr_no">अनु क्रमांक</string>
+    <string name="pre_balance">पिछला बकाया</string>
 
 </resources>
