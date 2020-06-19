@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     android:background="@drawable/bg"
+    android:gravity="center"
     tools:context=".View.SellCoinActivity">
 
     <LinearLayout
@@ -20,12 +22,13 @@
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/amazon_bold"
             android:padding="10dp"
-            android:shadowColor="#a3ffaf"
+            android:shadowColor="@color/yellows"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
             android:shadowRadius="20"
             android:text="@string/sell_coins"
-            android:textColor="#a3ffaf"
+            android:textAllCaps="true"
+            android:textColor="@color/yellows"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -37,7 +40,7 @@
             android:fontFamily="@font/amazon_regular"
             android:gravity="center"
             android:text="@string/available_coins"
-            android:textColor="@color/yellow" />
+            android:textColor="@color/white" />
 
         <EditText
             android:id="@+id/etAmount"
@@ -46,7 +49,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/edt_bg"
+            android:background="@drawable/plug_bg"
             android:fontFamily="@font/amazon_regular"
             android:gravity="center"
             android:hint="@string/enter_amount_here"
@@ -74,14 +77,13 @@
             android:fontFamily="@font/amazon_regular"
             android:gravity="center"
             android:text="@string/minimum_50_maximum_10000"
-            android:textColor="@color/yellow" />
+            android:textColor="@color/white" />
 
 
         <RelativeLayout
             android:layout_width="200dp"
-            android:layout_height="120dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/button_bg">
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal">
 
             <TextView
                 android:id="@+id/submitBtn"
@@ -89,16 +91,17 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="50dp"
+                android:background="@drawable/edt_bg"
                 android:fontFamily="@font/amazon_bold"
-                android:shadowColor="#a3ffaf"
+                android:gravity="center"
+                android:shadowColor="@color/white"
                 android:shadowDx="0.0"
                 android:shadowDy="0.0"
                 android:shadowRadius="20"
                 android:text="@string/submit"
                 android:textAllCaps="false"
-                android:textColor="#a3ffaf"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </RelativeLayout>
 
@@ -117,12 +120,13 @@
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/amazon_bold"
             android:padding="10dp"
-            android:shadowColor="#a3ffaf"
+            android:shadowColor="@color/yellows"
             android:shadowDx="0.0"
             android:shadowDy="0.0"
             android:shadowRadius="20"
             android:text="@string/wallet_balance_transfer"
-            android:textColor="#a3ffaf"
+            android:textAllCaps="true"
+            android:textColor="@color/yellows"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -134,7 +138,7 @@
             android:fontFamily="@font/amazon_regular"
             android:gravity="center"
             android:text="@string/available_coins"
-            android:textColor="@color/yellow" />
+            android:textColor="@color/white" />
 
         <EditText
             android:id="@+id/etAmountTrans"
@@ -143,7 +147,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/edt_bg"
+            android:background="@drawable/plug_bg"
             android:fontFamily="@font/amazon_regular"
             android:gravity="center"
             android:hint="@string/enter_amount_here"
@@ -175,9 +179,8 @@
 
         <RelativeLayout
             android:layout_width="200dp"
-            android:layout_height="120dp"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/button_bg">
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal">
 
             <TextView
                 android:id="@+id/transferBtn"
@@ -185,16 +188,17 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="50dp"
+                android:background="@drawable/edt_bg"
                 android:fontFamily="@font/amazon_bold"
-                android:shadowColor="#a3ffaf"
+                android:gravity="center"
+                android:shadowColor="@color/white"
                 android:shadowDx="0.0"
                 android:shadowDy="0.0"
                 android:shadowRadius="20"
-                android:text="@string/transfer"
+                android:text="@string/submit"
                 android:textAllCaps="false"
-                android:textColor="#a3ffaf"
-                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </RelativeLayout>
 

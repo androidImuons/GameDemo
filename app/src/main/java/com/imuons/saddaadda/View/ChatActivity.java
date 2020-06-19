@@ -43,11 +43,8 @@ public class ChatActivity extends AppCompatActivity {
     ProgressBar progressBar;
     @BindView(R.id.etMessage)
     EditText etMessage;
-
     @BindView(R.id.swipeRefresh)
     SwipeRefreshLayout swipeRefreshLayout;
-
-
     ChatRoomAdapter chatRoomAdapter;
     ArrayList<FetchChatDataModel> chatDataArrayList;
 

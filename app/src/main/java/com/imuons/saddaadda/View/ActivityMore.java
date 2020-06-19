@@ -100,12 +100,7 @@ public class ActivityMore extends AppCompatActivity {
                 callsendOtp(true);
             }
         });
-        logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showAlertDialog();
-            }
-        });
+        logout.setOnClickListener(v -> showAlertDialog());
     }
 
     private void callsendOtp(boolean b) {

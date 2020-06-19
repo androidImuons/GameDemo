@@ -35,9 +35,10 @@
                     android:gravity="center">
 
                     <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/profile" />
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/profile"
+                        android:layout_gravity="center"/>
                 </LinearLayout>
 
 
@@ -63,12 +64,12 @@
                             android:fontFamily="@font/amazon_bold"
                             android:gravity="start"
                             android:padding="5dp"
-                            android:shadowColor="#a3ffaf"
+                            android:shadowColor="@color/white"
                             android:shadowDx="1"
                             android:shadowDy="1"
                             android:shadowRadius="2"
                             android:text="sa123456789"
-                            android:textColor="#a3ffaf"
+                            android:textColor="@color/white"
                             android:textSize="22sp"
                             android:textStyle="bold"
                             android:translationY="10dp" />
@@ -77,16 +78,16 @@
                             android:id="@+id/share"
                             android:layout_width="25dp"
                             android:layout_height="25dp"
-                            android:src="@drawable/share"
+                            android:layout_alignParentRight="true"
                             android:layout_centerVertical="true"
-                            android:layout_alignParentRight="true"/>
+                            android:src="@drawable/share" />
                     </RelativeLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
+
                         android:layout_marginEnd="10dp"
                         android:background="@drawable/bg_ed"
                         android:gravity="center"
@@ -155,38 +156,37 @@
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="90dp"
-                    android:layout_marginTop="-30dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:background="@drawable/pink_bg"
+                    android:background="@drawable/edt_bg"
                     android:gravity="center">
 
                     <TextView
                         android:id="@+id/txt_change_password"
                         android:layout_width="wrap_content"
-                        android:layout_height="40dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
                         android:drawableLeft="@drawable/ic_lock"
                         android:drawableRight="@drawable/ic_edit"
-                        android:drawableTint="#7dcb92"
+                        android:drawableTint="@color/yellows"
                         android:fontFamily="@font/amazon_bold"
-                        android:gravity="center_vertical"
-                        android:shadowColor="#e535cd"
+                        android:gravity="center"
+                        android:shadowColor="@color/yellows"
                         android:shadowDx="1"
                         android:shadowDy="1"
                         android:shadowRadius="2"
                         android:text="@string/change_password"
-                        android:textColor="#7dcb92"
-                        android:textSize="10dp"></TextView>
+                        android:textColor="@color/yellows"
+                        android:textSize="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="90dp"
-                    android:layout_marginTop="-30dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_weight="0.5"
-                    android:background="@drawable/pink_bg"
+                    android:background="@drawable/edt_bg"
                     android:gravity="center">
 
                     <TextView
@@ -194,20 +194,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
                         android:drawableLeft="@drawable/ic_lock"
                         android:drawableRight="@drawable/ic_edit"
                         android:drawablePadding="10dp"
-                        android:drawableTint="#7dcb92"
+                        android:drawableTint="@color/yellows"
                         android:fontFamily="@font/amazon_bold"
-                        android:gravity="center_vertical"
-                        android:shadowColor="#e535cd"
+                        android:gravity="center"
+                        android:shadowColor="@color/yellows"
                         android:shadowDx="1"
                         android:shadowDy="1"
                         android:shadowRadius="2"
                         android:text="@string/change_pin"
-                        android:textColor="#7dcb92"
-                        android:textSize="10dp"></TextView>
+                        android:textColor="@color/yellows"
+                        android:textSize="10dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -273,8 +272,8 @@
                         android:shadowDy="1.0"
                         android:shadowRadius="20"
                         android:singleLine="true"
-                        android:textColor="#e535cd"
-                        android:textColorHint="#e535cd"
+                        android:textColor="@color/yellows"
+                        android:textColorHint="@color/yellows"
                         android:textSize="10sp" />
                 </LinearLayout>
 
@@ -327,13 +326,13 @@
                         android:imeOptions="actionNext"
                         android:inputType="phone"
                         android:maxLength="10"
-                        android:shadowColor="#e535cd"
+                        android:shadowColor="@color/yellows"
                         android:shadowDx="0.0"
                         android:shadowDy="0.0"
                         android:shadowRadius="20"
                         android:singleLine="true"
-                        android:textColor="#e535cd"
-                        android:textColorHint="#e535cd"
+                        android:textColor="@color/yellows"
+                        android:textColorHint="@color/yellows"
                         android:textSize="10sp" />
                 </LinearLayout>
 
@@ -388,15 +387,16 @@
                         android:imeOptions="actionNext"
                         android:inputType="phone"
                         android:maxLength="10"
-                        android:shadowColor="#e535cd"
+                        android:shadowColor="@color/yellows"
                         android:shadowDx="0.0"
                         android:shadowDy="0.0"
                         android:shadowRadius="20"
                         android:singleLine="true"
-                        android:textColor="#e535cd"
-                        android:textColorHint="#e535cd"
+                        android:textColor="@color/yellows"
+                        android:textColorHint="@color/yellows"
                         android:textSize="10sp" />
                 </LinearLayout>
+
                 <View
                     android:layout_width="2dp"
                     android:layout_height="match_parent"
@@ -448,13 +448,13 @@
                         android:imeOptions="actionNext"
                         android:inputType="phone"
                         android:maxLength="10"
-                        android:shadowColor="#e535cd"
+                        android:shadowColor="@color/yellows"
                         android:shadowDx="0.0"
                         android:shadowDy="0.0"
                         android:shadowRadius="20"
                         android:singleLine="true"
-                        android:textColor="#e535cd"
-                        android:textColorHint="#e535cd"
+                        android:textColor="@color/yellows"
+                        android:textColorHint="@color/yellows"
                         android:textSize="10sp" />
                 </LinearLayout>
             </LinearLayout>
@@ -531,13 +531,13 @@
                             android:gravity="center"
                             android:hint="@string/enter_name"
                             android:imeOptions="actionNext"
-                            android:shadowColor="#e535cd"
+                            android:shadowColor="@color/lightgreen"
                             android:shadowDx="0.0"
                             android:shadowDy="0.0"
                             android:shadowRadius="20"
                             android:singleLine="true"
-                            android:textColor="#e535cd"
-                            android:textColorHint="#e535cd"
+                            android:textColor="@color/lightgreen"
+                            android:textColorHint="@color/lightgreen"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -583,13 +583,13 @@
                             android:imeOptions="actionNext"
                             android:lines="1"
                             android:maxLength="12"
-                            android:shadowColor="#e535cd"
+                            android:shadowColor="@color/lightgreen"
                             android:shadowDx="0.0"
                             android:shadowDy="0.0"
                             android:shadowRadius="20"
                             android:singleLine="true"
-                            android:textColor="#e535cd"
-                            android:textColorHint="#e535cd"
+                            android:textColor="@color/lightgreen"
+                            android:textColorHint="@color/lightgreen"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -641,13 +641,13 @@
                             android:gravity="center"
                             android:hint="@string/enter_branch_name"
                             android:imeOptions="actionNext"
-                            android:shadowColor="#e535cd"
+                            android:shadowColor="@color/lightgreen"
                             android:shadowDx="0.0"
                             android:shadowDy="0.0"
                             android:shadowRadius="20"
                             android:singleLine="true"
-                            android:textColor="#e535cd"
-                            android:textColorHint="#e535cd"
+                            android:textColor="@color/lightgreen"
+                            android:textColorHint="@color/lightgreen"
                             android:textSize="12sp" />
                     </LinearLayout>
 
@@ -691,13 +691,13 @@
                             android:hint="@string/enter_account_number"
                             android:imeOptions="actionNext"
                             android:inputType="number"
-                            android:shadowColor="#e535cd"
+                            android:shadowColor="@color/lightgreen"
                             android:shadowDx="0.0"
                             android:shadowDy="0.0"
                             android:shadowRadius="20"
                             android:singleLine="true"
-                            android:textColor="#e535cd"
-                            android:textColorHint="#e535cd"
+                            android:textColor="@color/lightgreen"
+                            android:textColorHint="@color/lightgreen"
                             android:textSize="12sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -738,10 +738,9 @@
 
             <RelativeLayout
                 android:layout_width="200dp"
-                android:layout_height="120dp"
+                android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/button_bg">
+                android:layout_marginTop="20dp">
 
                 <TextView
                     android:id="@+id/submitBtn"
@@ -749,16 +748,17 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="50dp"
+                    android:background="@drawable/edt_bg"
                     android:fontFamily="@font/amazon_bold"
-                    android:shadowColor="#a3ffaf"
+                    android:gravity="center"
+                    android:shadowColor="@color/white"
                     android:shadowDx="0.0"
                     android:shadowDy="0.0"
                     android:shadowRadius="20"
                     android:text="@string/submit"
                     android:textAllCaps="false"
-                    android:textColor="#a3ffaf"
-                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
             </RelativeLayout>
         </LinearLayout>

@@ -74,12 +74,12 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/amazon_regular"
                     android:gravity="center"
-                    android:shadowColor="#cd9b0e"
+                    android:shadowColor="@color/white"
                     android:shadowDx="0.0"
                     android:shadowDy="0.0"
                     android:shadowRadius="5"
                     android:text="1"
-                    android:textColor="#cd9b0e"
+                    android:textColor="@color/white"
                     android:textSize="16sp" />
             </RelativeLayout>
 
@@ -95,12 +95,12 @@
                 android:layout_weight="4"
                 android:fontFamily="@font/amazon_regular"
                 android:gravity="center"
-                android:shadowColor="#c774ac"
+                android:shadowColor="@color/white"
                 android:shadowDx="0.0"
                 android:shadowDy="0.0"
                 android:shadowRadius="5"
                 android:text="@string/date"
-                android:textColor="#c774ac"
+                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <View
@@ -115,12 +115,12 @@
                 android:layout_weight="4"
                 android:fontFamily="@font/amazon_regular"
                 android:gravity="center"
-                android:shadowColor="#d64447"
+                android:shadowColor="@color/white"
                 android:shadowDx="0.0"
                 android:shadowDy="0.0"
                 android:shadowRadius="5"
                 android:text="@string/amount"
-                android:textColor="#d64447"
+                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <View
@@ -181,12 +181,12 @@
                     android:layout_weight="7"
                     android:fontFamily="@font/amazon_regular"
                     android:gravity="start|center_vertical"
-                    android:shadowColor="#cd9b0e"
+                    android:shadowColor="@color/white"
                     android:shadowDx="0.0"
                     android:shadowDy="0.0"
                     android:shadowRadius="5"
                     android:text="00"
-                    android:textColor="#cd9b0e"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <View
@@ -231,12 +231,12 @@
                     android:layout_weight="7"
                     android:fontFamily="@font/amazon_regular"
                     android:gravity="start|center_vertical"
-                    android:shadowColor="#cd9b0e"
+                    android:shadowColor="@color/white"
                     android:shadowDx="0.0"
                     android:shadowDy="0.0"
                     android:shadowRadius="5"
                     android:text="500000"
-                    android:textColor="#cd9b0e"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <View
@@ -280,12 +280,12 @@
                     android:layout_weight="7"
                     android:fontFamily="@font/amazon_regular"
                     android:gravity="start|center_vertical"
-                    android:shadowColor="#cd9b0e"
+                    android:shadowColor="@color/white"
                     android:shadowDx="0.0"
                     android:shadowDy="0.0"
                     android:shadowRadius="5"
                     android:text="500000"
-                    android:textColor="#cd9b0e"
+                    android:textColor="@color/white"
                     android:textSize="14sp" />
 
                 <View

@@ -226,7 +226,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/home_img" />
+                    android:src="@drawable/home" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -253,7 +253,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/accunt_img" />
+                    android:src="@drawable/account" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -280,7 +280,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/chat_img" />
+                    android:src="@drawable/chat" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -307,7 +307,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/more_img" />
+                    android:src="@drawable/more" />
 
                 <TextView
                     android:layout_width="wrap_content"

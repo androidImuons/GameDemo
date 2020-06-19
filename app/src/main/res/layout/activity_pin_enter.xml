@@ -94,7 +94,7 @@
                     android:shadowDy="0.0"
                     android:shadowRadius="20"
                     android:textColor="#a3ffaf"
-                    android:drawableTint="@color/lightgreen"
+
                     />
             </RelativeLayout>
 

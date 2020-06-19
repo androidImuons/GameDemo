@@ -40,7 +40,7 @@ public class ForgotPin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_pin);
         ButterKnife.bind(this);
-        
+
     }
     @OnClick(R.id.submitBtn)
     void submit(){

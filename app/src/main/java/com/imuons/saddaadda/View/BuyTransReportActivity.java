@@ -38,9 +38,7 @@ public class BuyTransReportActivity extends AppCompatActivity {
     RecyclerView recycleView;
     //SellReportAdapter reportAdapter;
     BuyTransAdapter reportAdapter;
-
     ArrayList<TransRecord> reportData;
-
     @BindView(R.id.glowingText)
     TextView glowingText;
     int offsetLevel = 0;
@@ -55,7 +53,6 @@ public class BuyTransReportActivity extends AppCompatActivity {
         reportAdapter = new BuyTransAdapter(this, reportData);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this);
         recycleView.setLayoutManager(mLayoutManager);
-
         recycleView.setItemAnimator(new DefaultItemAnimator());
         recycleView.setAdapter(reportAdapter);
         CallApiForReport(0);
@@ -64,7 +61,7 @@ public class BuyTransReportActivity extends AppCompatActivity {
     private void CallApiForReport(int start) {
         if (AppCommon.getInstance(this).isConnectingToInternet(this)) {
             Dialog dialog = null;
-            if(start == 0)
+            if (start == 0)
                 dialog = ViewUtils.getProgressBar(BuyTransReportActivity.this);
             else
                 dialog = ViewUtils.getBottomProgress(BuyTransReportActivity.this);
@@ -111,13 +108,13 @@ public class BuyTransReportActivity extends AppCompatActivity {
     }
 
     private void setData(TransReportData data) {
-        if (reportData.size()!=0)
+        if (reportData.size() != 0)
             reportData.addAll(data.getRecords());
         else {
             reportData = data.getRecords();
             reportData.add(0, new TransRecord());
         }
-        reportAdapter.updateList(reportData , offsetLevel);
+        reportAdapter.updateList(reportData, offsetLevel);
     }
 
     public void checkOpen(int adapterPosition) {
@@ -130,7 +127,7 @@ public class BuyTransReportActivity extends AppCompatActivity {
     }
 
     public void callapi(int position) {
-        offsetLevel = offsetLevel+1;
-        CallApiForReport( reportData.size());
+        offsetLevel = offsetLevel + 1;
+        CallApiForReport(reportData.size());
     }
 }
